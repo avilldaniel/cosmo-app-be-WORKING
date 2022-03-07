@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require("express"); // import express app
 const cors = require('cors'); // import cors
 const { pool } = require("./config"); // import database access
